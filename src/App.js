@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 // import ClassTimeTracker from './components/funbased/TimeTracker';
 // import FunTimeTracker from './components/classbased/TimeTracker';
-import HooksDemo from './components/funbased/HooksDemo';
-
+// import HooksDemo from './components/funbased/HooksDemo';
+import ApiCalling from './components/funbased/ApiCalling';
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
       <header className="App-header">
         {/* <ClassTimeTracker /> */}
         {/* <FunTimeTracker /> */}
-        <HooksDemo />
+        {/* <HooksDemo /> */}
+        <ApiCalling />
       </header>
     </div>
   );
