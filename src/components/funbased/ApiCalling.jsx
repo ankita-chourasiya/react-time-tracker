@@ -36,7 +36,7 @@ const ApiCalling = () => {
         </thead>
         <tbody>
           {data.map((dataObj) => (
-            // note: if using {} instead of () need to return the dataObj manually
+            // if using {} instead of () need to return the dataObj manually
             // return (
               // <>
                 <tr key={dataObj.id}>
